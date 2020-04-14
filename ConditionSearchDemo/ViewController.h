@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    kindSelected,
+    stateSelected,
+    priceSelected,
+} BtnSelected;
+
 @interface ViewController : UIViewController
 
 
